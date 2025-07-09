@@ -83,7 +83,7 @@ A Django REST API to simulate and track the compounding growth of investments ov
 
 ## 📬 API Usage
 ### 📌 Investment Endpoint
-```
+
 | Method | Endpoint                 | Description                             |
 |--------|--------------------------|-----------------------------------------|
 | GET    | `/investments/`          | List all investments                    |
@@ -91,7 +91,7 @@ A Django REST API to simulate and track the compounding growth of investments ov
 | GET    | `/investments/{id}/`     | Retrieve details of a specific investment |
 | PUT    | `/investments/{id}/`     | Update an investment and recalculate growth |
 | DELETE | `/investments/{id}/`     | Delete an investment                    |
-```
+
 ### Example POST /api/investments/ body:
     ```
     {
