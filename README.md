@@ -105,9 +105,6 @@ A Django REST API to simulate and track the compounding growth of investments ov
     }
     ```
 ## 📈 Investment Growth Endpoints
-## API Endpoints
-
-### Investment & Growth
 
 | Method | Endpoint                          | Description                                 |
 |--------|-----------------------------------|---------------------------------------------|
