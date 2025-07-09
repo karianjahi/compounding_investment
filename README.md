@@ -105,11 +105,13 @@ A Django REST API to simulate and track the compounding growth of investments ov
     }
     ```
 ## 📈 Investment Growth Endpoints
+```
     | Method | Endpoint                                   | Description                           |
 | ------ | ------------------------------------------ | ------------------------------------- |
 | GET    | `/admin`                                   | Admin               |
 | GET    | `/investments`                             | List all investment records               |
 | GET    | `investments/<int:pk>/`                    | All growth entries for one investment |
+```
 
 ### Response format
     ```
